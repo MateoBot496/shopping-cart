@@ -1,12 +1,13 @@
-import { useState } from 'react'
+/*import { useState } from 'react';*/
 import { Link } from 'react-router-dom'
 
 function App() {
 
   return (
     <>
-      
-        <Link to="/shop">Shop</Link>
+      <div id='home' className='h-full w-full flex justify-center flex-col items-center'>
+          <h1 className='fs-9xl'>home</h1>
+      </div>  
       
     </>
   )
